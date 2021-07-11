@@ -6,7 +6,7 @@
     First of all, my goal is self development, self-study using your courses and other additional resourses.
     It is important for me to increase my skills and change work sphere in the future. I should say that my
     work is well-paid, but when I discovered for myself HTML5/CSS3/JS I understood that this is exatcly what
-    I want to do, what I am really interested in.
+    I really want to do, what I am really interested in.
 
     Nowadays,probably, I have no enough experience, **but** I have potencial, great desire to study, learn
     something new, make a profit.I will learn fast and will not let my team down.I will try to learn new things from everywhere if the company give me an opportunity to prove myself.
