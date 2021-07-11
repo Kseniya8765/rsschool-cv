@@ -1,1 +1,0 @@
-[CV](https://Kseniya8765.github.io/rsschool-cv/cv)
