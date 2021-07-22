@@ -14,6 +14,10 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.avatar{
+    width: 150px;
+    height: 200px;
+}
 main {
   flex:1;
 }
