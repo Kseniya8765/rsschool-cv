@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1{
+font-family: Source Code Pro;
+font-weight: 200;
+font-size: 28px;
+text-transform: uppercase;
+color: #333333;
+margin-bottom: 10px;
+}
+h3{
+font-family: Source Code Pro;
+font-weight: bold;
+font-size: 16px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: rgba(153, 103, 186, 1);  
+margin-bottom: 40px;
+}
+.avatar{
+    width: 150px;
+    height: 200px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 ;
+}
+.info{
+  margin-left: 24px;
+}
+.info>li{
+margin-bottom: 10px;
+font-family: Open Sans;
+font-weight: 300;
+font-size: 14px;
+color: #333333;
+}
+.info>li:first-child{
+  list-style-image: url(../src/mail.png);
+}
+.info>li:nth-child(2){
+  list-style-image: url(../src/github.png);
+}
+.info>li:last-child{
+  list-style-image: url(../src/tel.png);
+}
+.info>li>a{
+  text-decoration: none;
+  color: #333333;
+}
+main {
+  flex:1;
+}
+h2{
+  text-align: center;
+}
