@@ -94,3 +94,7 @@ color: #313131;
   margin-bottom: 10px;
   margin-right: 40px;
 }
+.code a{
+  text-decoration: none;
+  color: rgb(124, 71, 160);
+}
