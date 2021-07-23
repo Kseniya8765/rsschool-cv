@@ -98,3 +98,13 @@ color: #313131;
   text-decoration: none;
   color: rgb(124, 71, 160);
 }
+.experience h4{
+font-family: Open Sans;
+font-weight: 700;
+font-size: 14px;
+margin:10px 0;
+}
+.date{
+  font-style: italic;
+  margin-bottom: 10px;
+}
