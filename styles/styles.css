@@ -76,7 +76,7 @@ font-weight: 700;
 font-size: 14px;
 letter-spacing: 0.05em;
 text-transform: uppercase;
-color: #444444;
+color: rgb(124, 71, 160);
 margin: 15px 0;
 }
 p{
@@ -84,4 +84,13 @@ font-family: Open Sans;
 font-weight: 400;
 font-size: 14px;
 color: #313131;
+}
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.skills>li{
+  margin-bottom: 10px;
+  margin-right: 40px;
 }
