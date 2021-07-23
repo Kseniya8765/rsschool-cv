@@ -111,3 +111,24 @@ margin:10px 0;
 .certificates p{
   margin-bottom: 10px;
 }
+.rsschool{
+  width: 300px;
+  margin-bottom: 10px;
+}
+.git-block{
+  display: flex;
+}
+.git{
+  display: block;
+  margin-right: 15px;
+}
+.git img{
+  width:15px;
+  height: 15px;
+}
+.time{
+  font-family: Source Code Pro;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333333; 
+}
