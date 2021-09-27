@@ -7,8 +7,20 @@
     <title>CV</title>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="src/github.png">
   </head>
   <body>
+    <div class="nav">
+      <span id="trigger" class="trigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+      <ul id="menu" class="menu">
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#education">education</a></li>
+      </ul>
+    </div>
     <div class="flex-container">
       <header>
         <div class="wrapper">
@@ -44,7 +56,7 @@
           </section>
           <section>
             <h2>Skills</h2>
-            <ul class="skills">
+            <ul id="skills" class="skills">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JS</li>
@@ -57,8 +69,8 @@
               <li>WEBPACK</li>
               <li>FIGMA</li>
               <li>BOOTSTRAP</li>
+              <li>TAILWIND</li>
               <li>ADAPTIVE LAYOUT</li>
-              <li>CHROME DEVTOOLS</li>
             </ul>
           </section>
           <section class="code">
@@ -106,7 +118,7 @@
             <p>International economic relationships,</p>
             <p>World economy, 2013-2017</p>
           </section>
-          <section>
+          <section id="education">
             <h2>English</h2>
             <p>
               My level of English is B1 according to EPAM test and others. I
@@ -119,6 +131,7 @@
           </section>
           <section class="certificates">
             <h2>Courses and certificates</h2>
+            <p><time>2021</time>: Rolling scope scholl: JS/FE pre-school</p>
             <p><time>2021</time>: Front-end developer course (skillup.by)</p>
             <p><time>2019</time>: Rolling scope scholl</p>
             <p>
@@ -142,5 +155,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

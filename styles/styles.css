@@ -6,7 +6,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-image: url(https://static.tildacdn.com/tild3032-3834-4136-b536-303232626662/photo.svg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
 .wrapper {
   max-width: 800px;
   margin: 0 auto;
@@ -18,7 +25,7 @@
   min-height: 100vh;
 }
 h1 {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   font-weight: 200;
   font-size: 28px;
   text-transform: uppercase;
@@ -26,9 +33,9 @@ h1 {
   margin-bottom: 10px;
 }
 h3 {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: rgba(153, 103, 186, 1);
@@ -48,7 +55,7 @@ h3 {
 }
 .info > li {
   margin-bottom: 10px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 300;
   font-size: 14px;
   color: #333333;
@@ -71,19 +78,19 @@ main {
 }
 h2 {
   text-align: center;
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: rgb(124, 71, 160);
+  color: rgb(86, 20, 131);
   margin: 15px 0;
 }
 p {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 400;
-  font-size: 14px;
-  color: #313131;
+  font-size: 16px;
+  color: #181818;
 }
 .skills {
   display: flex;
@@ -96,10 +103,11 @@ p {
 }
 .code a {
   text-decoration: none;
-  color: rgb(124, 71, 160);
+  color: rgb(86, 20, 131);
+  font-weight: 700;
 }
 .experience h4 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 14px;
   margin: 10px 0;
@@ -127,8 +135,68 @@ p {
   height: 15px;
 }
 .time {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   font-weight: 700;
   font-size: 16px;
   color: #333333;
+}
+.menu {
+  display: none;
+  align-items: center;
+  height: 50px;
+}
+.menu a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgb(86, 20, 131);
+  font-weight: 700;
+  font-family: "Source Code Pro";
+}
+.nav {
+  background-color: rgb(153, 99, 189);
+  position: sticky;
+  top: 0;
+}
+@media (max-width: 550px) {
+  .menu {
+    display: none;
+  }
+  .trigger {
+    display: inline-block;
+    margin: 3px 3px 3px 15px;
+    cursor: pointer;
+  }
+  .trigger i {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 4px auto;
+    background: rgb(53, 52, 52);
+  }
+  .show {
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contacts {
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contacts-img {
+    margin: 0 auto;
+    order: -1;
+    padding-bottom: 15px;
+  }
+  h1,
+  h3 {
+    text-align: center;
+  }
+  h3 {
+    margin-bottom: 15px;
+  }
+  .rsschool {
+    width: 250px;
+  }
 }
